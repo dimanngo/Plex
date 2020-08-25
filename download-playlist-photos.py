@@ -4,7 +4,7 @@ import os
 from plexapi.server import PlexServer
 from plexapi import utils
 
-baseurl = 'http://192.168.1.100:32400'
+baseurl = 'http://localhost:32400'
 token = 'PLACE TOKEN HERE'
 plex = PlexServer(baseurl, token)
 
